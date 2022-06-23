@@ -70,12 +70,12 @@ justify-content: center; */
     margin: 20px 0px;
 
 }
-.content h3{
+.content h1{
     font-size: 22px;
     margin-bottom: 12px;
     cursor: pointer;
 }
-.content h3:hover , .eth-img:hover{
+.content h1:hover , .eth-img:hover{
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
@@ -136,7 +136,13 @@ margin-top: 15px;
 
 
 
-
+footer{
+    position: fixed;
+    bottom: 10px;
+}
 
    .attribution { font-size: 11px; text-align: center; }
-   .attribution a { color: hsl(228, 45%, 44%); }
+   .attribution a { color: hsl(228, 45%, 44%);
+    font-size: 22px;
+  text-decoration: none;
+}
